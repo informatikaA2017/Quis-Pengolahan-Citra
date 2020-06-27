@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
+##Add image
 img = cv2.imread('./images/plat.jpg',0)
 img = cv2.medianBlur(img,5)
 
